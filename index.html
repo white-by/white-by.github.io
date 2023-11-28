@@ -256,80 +256,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <span id="more"></span>
-
-<h1 id="Ch4-对象和类"><a href="#Ch4-对象和类" class="headerlink" title="Ch4 对象和类"></a>Ch4 对象和类</h1><h2 id="4-3-用户自定义类"><a href="#4-3-用户自定义类" class="headerlink" title="4.3 用户自定义类"></a>4.3 用户自定义类</h2><ul>
-<li>4.3.8 封装的优点 P112<ul>
-<li>不要返回可变对象引用的访问器方法<ul>
-<li>因为会导致引用同一对象，而破坏原属性的私有状态</li>
-<li>先<strong>clone</strong>，再返回可变对象的引用</li>
-</ul>
-</li>
-<li>final字段 <ul>
-<li>1、final修饰符对于 基本类型 或者不可变类 <ul>
-<li>类中所有⽅法都不会改变其对象，如String类的字段尤其有⽤</li>
-</ul>
-</li>
-<li>2、对于可变的类 <ul>
-<li>使⽤final会造成混乱，final关键字只表⽰存储在该 变量 中的 对象引⽤ 不会再指向另⼀个不同的对象，⽽这个对象 还是可以更改</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="4-5-方法参数"><a href="#4-5-方法参数" class="headerlink" title="4.5 方法参数"></a>4.5 方法参数</h2><ul>
-<li>java对对象采用按值传递 P123</li>
-<li>总结<ul>
-<li>方法不能改变基本数据类型的参数</li>
-<li>方法可以改变对象参数的形态</li>
-<li>方法不能让一个对象参数引用一个新的对象</li>
-</ul>
-</li>
-</ul>
-<h2 id="4-6-对象构造"><a href="#4-6-对象构造" class="headerlink" title="4.6 对象构造"></a>4.6 对象构造</h2><ul>
-<li>4.6.1 重载<ul>
-<li>⽅法签名：⽅法名 + 参数类型 <ul>
-<li>返回类型不是⽅法签名的⼀部分</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>4.6.6 调用另一个构造器<ul>
-<li>这个构造器将会调⽤另⼀个构造器<ul>
-<li>构造器的第⼀个语句形如 &#96;this(…)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="4-7-包"><a href="#4-7-包" class="headerlink" title="4.7 包"></a>4.7 包</h2><ul>
-<li>. 如果包与⽬录不匹配<ul>
-<li>如果不依赖于其他包时，可以成功编译</li>
-<li>但是⽆法成功运⾏：虚拟机找不到类</li>
-</ul>
-</li>
-</ul>
-<h1 id="Ch5-继承"><a href="#Ch5-继承" class="headerlink" title="Ch5 继承"></a>Ch5 继承</h1><h2 id="类、继承"><a href="#类、继承" class="headerlink" title="类、继承"></a>类、继承</h2><ul>
-<li>在覆盖⼀个⽅法的时候，⼦类⽅法不能低于⽗类⽅法的可见性。 <ul>
-<li>eg，⽗类⽅法为 public，⼦类必须为 public。 如果⼦类遗漏了 public，编译器就会报错。</li>
-</ul>
-</li>
-<li>超类转子类<ul>
-<li>需要<code>instanceof</code></li>
-<li>eg  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (staff[<span class="number">1</span>] <span class="keyword">instanceof</span> Manager) &#123;</span><br><span class="line">	boss = (Manager)staff[<span class="number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li>覆盖超类方法，可以用<code>@Override</code></li>
-</ul>
-<h2 id="5-5-参数变量可变的方法"><a href="#5-5-参数变量可变的方法" class="headerlink" title="5.5 参数变量可变的方法"></a>5.5 参数变量可变的方法</h2><ul>
-<li>用 <code>...</code><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">double</span> <span class="title function_">sum</span><span class="params">(<span class="type">double</span>... values)</span> &#123;  </span><br><span class="line">    <span class="type">double</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">double</span> v: values) &#123;  </span><br><span class="line">        sum += v;  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">return</span> sum;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="5-6-enum类"><a href="#5-6-enum类" class="headerlink" title="5.6 enum类"></a>5.6 enum类</h2><ul>
-<li>构造器总是私有的</li>
-</ul>
-
+        <p>java 核心技术卷 1 的学习笔记</p>
+        
+          <a class="article-more-a" href="/2023/11/27/java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%8D%B71/#more">more >></a>
+        
       
 
       
@@ -402,7 +332,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Xx4y1V7JZ/?spm_id_from=333.999.0.0&vd_source=33e6dae72e8734d733f973f5e84004b0">南京大学2023操作系统</a> by绿导师原谅你了 <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2023/">讲义</a></p>
+        <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Xx4y1V7JZ/?spm_id_from=333.999.0.0&vd_source=33e6dae72e8734d733f973f5e84004b0">南京大学 2023 操作系统</a> by 绿导师原谅你了 <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2023/">讲义</a></p>
         
           <a class="article-more-a" href="/2023/11/23/njuOS/#more">more >></a>
         
