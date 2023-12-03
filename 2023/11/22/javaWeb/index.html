@@ -16,7 +16,7 @@
 <meta property="og:description" content="黑马">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-11-22T06:49:52.000Z">
-<meta property="article:modified_time" content="2023-12-02T08:52:00.054Z">
+<meta property="article:modified_time" content="2023-12-03T14:28:42.230Z">
 <meta property="article:author" content="whiteby">
 <meta property="article:tag" content="notes">
 <meta name="twitter:card" content="summary">
@@ -360,6 +360,62 @@
 </ul>
 </li>
 </ul>
+<h2 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h2><ul>
+<li>概述<ul>
+<li>Hypertext Transfer Protocol，超文本传输协议，一种用于传输超文本和多媒体内容的协议</li>
+</ul>
+</li>
+<li>请求<ul>
+<li>GET 和 POST 的区别<ul>
+<li>语义（主要区别）<ul>
+<li>GET 通常用于获取或查询资源，而 POST 通常用于创建或修改资源。</li>
+</ul>
+</li>
+<li>格式：<ul>
+<li>GET 请求的参数通常放在 URL 中，形成查询字符串（querystring）</li>
+<li>POST 请求的参数通常放在请求体（body）中</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>响应<ul>
+<li>状态码<ol>
+<li>1xx<ul>
+<li>响应中</li>
+</ul>
+</li>
+<li>2xx<ul>
+<li>成功</li>
+<li><strong>200 OK</strong>：请求被成功处理，这个是我们平时最常见的一个 HTTP 状态码。</li>
+</ul>
+</li>
+<li>3xx<ul>
+<li>重定向</li>
+<li>302 Found：资源被临时重定向了。比如你的网站的某些资源被暂时转移到另外一个网址。<ul>
+<li>浏览器会自动访问Location给的URL（另外那个网站）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>4xx<ul>
+<li>客户端错误</li>
+<li>400 Bad Request：发送的 HTTP 请求存在问题，客户端语法有错。比如请求参数不合法、请求方法错误。</li>
+<li>403 Forbidden：拒绝 HTTP 请求，不处理。一般用来针对非法请求。</li>
+<li><strong>404 Not Found</strong>：你请求的资源未在服务端找到。比如你请求某个用户的信息，服务端并没有找到指定的用户</li>
+</ul>
+</li>
+<li>5xx<ul>
+<li>服务端错误</li>
+<li><strong>500 Internal Server Error</strong>：服务端出问题了（通常是服务端出 Bug 了）。比如你服务端处理请求的时候突然抛出异常，但是异常并未在服务端被正确处理。</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
 
       
 
@@ -481,7 +537,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#html"><span class="toc-number">1.</span> <span class="toc-text">html</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#js"><span class="toc-number">2.</span> <span class="toc-text">js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue"><span class="toc-number">3.</span> <span class="toc-text">vue</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#element"><span class="toc-number">3.1.</span> <span class="toc-text">element</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#maven"><span class="toc-number">4.</span> <span class="toc-text">maven</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#html"><span class="toc-number">1.</span> <span class="toc-text">html</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#js"><span class="toc-number">2.</span> <span class="toc-text">js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue"><span class="toc-number">3.</span> <span class="toc-text">vue</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#element"><span class="toc-number">3.1.</span> <span class="toc-text">element</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#maven"><span class="toc-number">4.</span> <span class="toc-text">maven</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTTP"><span class="toc-number">5.</span> <span class="toc-text">HTTP</span></a></li></ol>
                     </div>
                 </span>
             </div>
