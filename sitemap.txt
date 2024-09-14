@@ -1,7 +1,7 @@
 http://example.com/2024/09/14/hello-world/
 http://example.com/2024/09/14/whiteby/
 http://example.com/2023/11/23/njuOS/
-http://example.com/2023/11/27/java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%8D%B71/
 http://example.com/2023/11/22/javaWeb/
+http://example.com/2023/11/27/java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%8D%B71/
 http://example.com/
 http://example.com/tags/notes/
