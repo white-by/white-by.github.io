@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-09-14T05:24:15.857Z</updated>
+  <updated>2024-09-14T05:02:36.204Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2024/09/14/hw1_JUMP/"/>
-    <id>http://example.com/2024/09/14/hw1_JUMP/</id>
-    <published>2024-09-14T05:24:15.856Z</published>
-    <updated>2024-09-14T05:24:15.857Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h2><p>​JUMP 是一款 由 Construct3 从0开始制作的，2D 竖版平台跳跃游戏，玩家将扮演一名小骷髅人，一步一步跳跃，直至找到出路。</p><p>​游戏设置了普通台阶、易碎台阶、传送门以及跳跃穿透台阶。</p><h2 id="游玩演示"><a href="#游玩演示" class="headerlink" title="游玩演示"></a>游玩演示</h2><ol><li><p>通关演示</p><p><video src="Videos/jump_win.mkv"></video></p></li><li><p>失败演示</p></li></ol><h2 id="游戏制作"><a href="#游戏制作" class="headerlink" title="游戏制作"></a>游戏制作</h2><ol><li><p>易碎台阶</p><ol><li><p>具体制作</p><p>让主控角色触碰到易碎台阶时，摧毁台阶并加入音效。</p><p><img src="/.com//image-20240913215713898.png" alt="image-20240913215713898"></p></li><li><p>素材制作</p><p>为了让玩家区分出普通台阶和易碎台阶，在普通台阶上做部分挖空处理。</p></li></ol></li><li><p>传送门</p><ol><li><p>具体制作</p><p>让主控角色触碰到传送门时，移动到另一个传送门并加入音效。</p></li></ol></li><li><p>跳跃穿透台阶</p><ol><li><p>思路</p><p>为了让玩家意思到台阶可以从下往上跳跃，将普通台阶进行180°翻转，并将底部进行虚化处理，只保留上层清晰图片</p><p>普通台阶：</p><img src="/.com//image-20240913220817486.png" alt="image-20240913220817486" style="zoom:50%;"><p>跳跃穿透台阶：</p><img src="/.com//image-20240913220847961.png" alt="image-20240913220847961" style="zoom:50%;"></li><li><p>具体制作</p><p>添加行为</p><img src="/.com//image-20240913221020048.png" alt="image-20240913221020048" style="zoom:80%;"></li></ol></li><li><p>场景切换</p><ol><li>新建场景，当主控角色触碰到当前场景的指定位置时，跳转到下一个需要场景。</li></ol></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>whiteby</title>
@@ -54,29 +34,9 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2024/09/14/hello-world/"/>
-    <id>http://example.com/2024/09/14/hello-world/</id>
-    <published>2024-09-14T04:35:58.823Z</published>
-    <updated>2024-09-14T04:35:58.823Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>3D GAMES</title>
-    <link href="http://example.com/2024/09/14/3DGames/3DGames/"/>
-    <id>http://example.com/2024/09/14/3DGames/3DGames/</id>
+    <link href="http://example.com/2024/09/14/3DGames/"/>
+    <id>http://example.com/2024/09/14/3DGames/</id>
     <published>2024-09-13T16:00:00.000Z</published>
     <updated>2024-09-14T05:56:49.981Z</updated>
     
@@ -97,12 +57,12 @@
   
   <entry>
     <title>hw1_JUMP</title>
-    <link href="http://example.com/2024/09/14/3DGames/hw1_JUMP/"/>
-    <id>http://example.com/2024/09/14/3DGames/hw1_JUMP/</id>
+    <link href="http://example.com/2024/09/14/hw1_JUMP/"/>
+    <id>http://example.com/2024/09/14/hw1_JUMP/</id>
     <published>2024-09-13T16:00:00.000Z</published>
-    <updated>2024-09-14T05:58:26.926Z</updated>
+    <updated>2024-09-14T06:03:03.675Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h2><p>​JUMP 是一款 由 Construct3 从0开始制作的，2D 竖版平台跳跃游戏，玩家将扮演一名小骷髅人，一步一步跳跃，直至找到出路。</p><p>​游戏设置了普通台阶、易碎台阶、传送门以及跳跃穿透台阶。</p><span id="more"></span><h2 id="游玩演示"><a href="#游玩演示" class="headerlink" title="游玩演示"></a>游玩演示</h2><ol><li><p>通关演示</p><div style="padding: 62.50% 0 0 0; position: relative"><div style="height:100%;left:0;position:absolute;top:0;width:100%"><iframe height="100%" width="100%;" src="https://embed.wave.video/enbCbbGhVO7nEv3G" frameborder="0" allow="autoplay; fullscreen" scrolling="no"></iframe></div></div></li><li><p>失败演示</p></li></ol><h2 id="游戏制作"><a href="#游戏制作" class="headerlink" title="游戏制作"></a>游戏制作</h2><ol><li><p>易碎台阶</p><ol><li><p>具体制作</p><p>让主控角色触碰到易碎台阶时，摧毁台阶并加入音效。</p><p><img src="https://i.meee.com.tw/nKFssoN.png" alt="danger"></p></li><li><p>素材制作</p><p>为了让玩家区分出普通台阶和易碎台阶，在普通台阶上做部分挖空处理。</p></li></ol></li><li><p>传送门</p><ol><li><p>具体制作</p><p>让主控角色触碰到传送门时，移动到另一个传送门并加入音效。</p></li></ol></li><li><p>跳跃穿透台阶</p><ol><li><p>思路</p><p>为了让玩家意思到台阶可以从下往上跳跃，将普通台阶进行180°翻转，并将底部进行虚化处理，只保留上层清晰图片</p><p>普通台阶：</p><img src="https://i.meee.com.tw/GVLpVhe.png" alt="t" style="zoom:50%;"><p>跳跃穿透台阶：</p><img src="https://i.meee.com.tw/ZjJ7xV6.png" alt="tr" style="zoom:50%;"></li><li><p>具体制作</p><p>添加行为</p><p><img src="https://i.meee.com.tw/NxhdgZg.png" alt="1"></p></li></ol></li><li><p>场景切换</p><ol><li>新建场景，当主控角色触碰到当前场景的指定位置时，跳转到下一个需要场景。</li></ol></li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h2><p>​JUMP 是一款 由 Construct3 从0开始制作的，2D 竖版平台跳跃游戏，玩家将扮演一名小骷髅人，一步一步跳跃，直至找到出路。</p><p>​游戏设置了普通台阶、易碎台阶、传送门以及跳跃穿透台阶。</p><span id="more"></span><h2 id="游玩演示"><a href="#游玩演示" class="headerlink" title="游玩演示"></a>游玩演示</h2><ol><li><p>通关演示</p><div style="padding: 62.50% 0 0 0; position: relative"><div style="height:100%;left:0;position:absolute;top:0;width:100%"><iframe height="70%" width="70%;" src="https://embed.wave.video/enbCbbGhVO7nEv3G" frameborder="0" allow="autoplay; fullscreen" scrolling="no"></iframe></div></div></li><li><p>失败演示</p></li></ol><h2 id="游戏制作"><a href="#游戏制作" class="headerlink" title="游戏制作"></a>游戏制作</h2><ol><li><p>易碎台阶</p><ol><li><p>具体制作</p><p>让主控角色触碰到易碎台阶时，摧毁台阶并加入音效。</p><p><img src="https://i.meee.com.tw/nKFssoN.png" alt="danger"></p></li><li><p>素材制作</p><p>为了让玩家区分出普通台阶和易碎台阶，在普通台阶上做部分挖空处理。</p></li></ol></li><li><p>传送门</p><ol><li><p>具体制作</p><p>让主控角色触碰到传送门时，移动到另一个传送门并加入音效。</p></li></ol></li><li><p>跳跃穿透台阶</p><ol><li><p>思路</p><p>为了让玩家意思到台阶可以从下往上跳跃，将普通台阶进行180°翻转，并将底部进行虚化处理，只保留上层清晰图片</p><p>普通台阶：</p><img src="https://i.meee.com.tw/GVLpVhe.png" alt="t" style="zoom:50%;"><p>跳跃穿透台阶：</p><img src="https://i.meee.com.tw/ZjJ7xV6.png" alt="tr" style="zoom:50%;"></li><li><p>具体制作</p><p>添加行为</p><p><img src="https://i.meee.com.tw/NxhdgZg.png" alt="1"></p></li></ol></li><li><p>场景切换</p><ol><li>新建场景，当主控角色触碰到当前场景的指定位置时，跳转到下一个需要场景。</li></ol></li></ol>]]></content>
     
     
     <summary type="html">&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;​	JUMP 是一款 由 Construct3 从0开始制作的，2D 竖版平台跳跃游戏，玩家将扮演一名小骷髅人，一步一步跳跃，直至找到出路。&lt;/p&gt;
