@@ -96,25 +96,6 @@
   </entry>
   
   <entry>
-    <title>njuOS</title>
-    <link href="http://example.com/2023/11/23/njuOS/"/>
-    <id>http://example.com/2023/11/23/njuOS/</id>
-    <published>2023-11-23T02:12:04.000Z</published>
-    <updated>2024-09-14T05:03:17.286Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://www.bilibili.com/video/BV1Xx4y1V7JZ/?spm_id_from=333.999.0.0&vd_source=33e6dae72e8734d733f973f5e84004b0">南京大学 2023 操作系统</a> by 绿导师原谅你了 <a href="https://jyywiki.cn/OS/2023/">讲义</a></p><span id="more"></span><h2 id="P2"><a href="#P2" class="headerlink" title="P2"></a>P2</h2><h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><ul><li>反汇编<ul><li><code>objdump -d</code></li></ul></li></ul><p><code>objdump -d a.out | wc -l</code><br><code>gdb a.out</code> -&gt; <code>starti</code>：从第一条指令开始执行程序<br><code>syscall</code><br>ANSI Escape Code 的更多应用</p><ul><li>界面<ul><li><code>dialog --msgbox &#39;Hello, OS World!&#39; 8 32</code></li></ul></li><li>贪吃蛇<ul><li><code>ssh -o &#39;HostKeyAlgorithms +ssh-rsa&#39; sshtron.zachlatta.com</code></li></ul></li></ul><h3 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h3><p>.c –预处理–&gt; .i –编译–&gt;.s –汇编–&gt; .o –链接–&gt; .out</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Xx4y1V7JZ/?spm_id_from=333.999.0.0&amp;vd_source=33e6dae72e8734d733f973f5e84004b0&quot;&gt;南京大学 2023 操作系统&lt;/a&gt; by 绿导师原谅你了 &lt;a href=&quot;https://jyywiki.cn/OS/2023/&quot;&gt;讲义&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="notes" scheme="http://example.com/tags/notes/"/>
-    
-  </entry>
-  
-  <entry>
     <title>javaWeb</title>
     <link href="http://example.com/2023/11/22/javaWeb/"/>
     <id>http://example.com/2023/11/22/javaWeb/</id>
