@@ -1,4 +1,4 @@
-http://example.com/2024/10/18/test/
+http://example.com/2024/10/18/hw3_PriestsAndDevils/
 http://example.com/2024/09/14/3DGames/
 http://example.com/2024/09/29/hw2_SimpleCalculator/
 http://example.com/2024/09/14/whiteby/
