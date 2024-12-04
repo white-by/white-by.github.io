@@ -1,9 +1,9 @@
+http://example.com/2024/09/14/whiteby/
 http://example.com/2024/11/29/Shoot%E5%A4%A7%E4%BD%9C%E4%B8%9A/
 http://example.com/2024/11/08/hw4_HitUFO/
 http://example.com/2024/09/14/3DGames/
 http://example.com/2024/10/18/hw3_PriestsAndDevils/
 http://example.com/2024/09/29/hw2_SimpleCalculator/
-http://example.com/2024/09/14/whiteby/
 http://example.com/2024/09/14/hw1_JUMP/
 http://example.com/2023/11/22/javaWeb/
 http://example.com/2023/11/27/java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%8D%B71/
